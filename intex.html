@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>欢迎来到我的网页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-weight: 600;
+      color: #4a90e2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>你好，我是你的名字</h1>
+  <p>欢迎来到我的个人主页 👋</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>关于我</h2>
+    <p>我是一名前端开发者 / 学生 / 设计师（随便改），喜欢构建有趣、实用又美观的网页。</p>
+  </div>
+
+  <div class="card">
+    <h2>项目展示</h2>
+    <ul>
+      <li>🛠 <strong>项目A</strong> - 一个用于做 X 的工具</li>
+      <li>📱 <strong>项目B</strong> - 一个移动端 App</li>
+      <li>🎨 <strong>项目C</strong> - 一个网页美化方案</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>联系我</h2>
+    <p>你可以通过以下方式联系我：</p>
+    <ul>
+      <li>📧 邮箱：your@email.com</li>
+      <li>🌐 GitHub：<a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  © 2025 你的名字 | 使用 GitHub Pages 托管
+</footer>
+
+</body>
+</html>
