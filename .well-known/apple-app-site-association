@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "YWK3G4996Y.cn.foxii.CalterDemo",
+        "paths": [ "https://foxii.cn/wechat/callback/", "/" ]  // 你要支持跳转的路径
+      }
+    ]
+  }
+}
