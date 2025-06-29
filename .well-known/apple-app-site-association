@@ -1,11 +1,11 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "YWK3G4996Y.cn.foxii.CalterDemo",
-        "paths": ["/wechat/callback/*"]
-      }
-    ]
-  }
+	"applinks": {
+		"apps": [],
+		"details": [
+			{
+				"appIDs": [ "YWK3G4996Y.cn.foxii.CalterDemo" ],
+				"paths": [ "/native/*" ]
+			}
+		]
+	}
 }
