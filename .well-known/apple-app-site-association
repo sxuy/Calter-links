@@ -4,9 +4,7 @@
     "details": [
       {
         "appID": "YWK3G4996Y.cn.foxii.CalterDemo",
-        "paths": [
-          "/app/*"
-        ]
+        "paths": ["/wechat/callback/*"]
       }
     ]
   }
